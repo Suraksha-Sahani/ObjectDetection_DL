@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FACAEB12F89412100D4FD19 /* best.mlpackage in Resources */ = {isa = PBXBuildFile; fileRef = 5FACAEB02F89412100D4FD19 /* best.mlpackage */; };
 		633BC6FB22EDE73D00821BCA /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 633BC6FA22EDE73D00821BCA /* Settings.bundle */; };
 		636EFCAA21E62DD300DE43BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636EFC9C21E62DD300DE43BC /* ViewController.swift */; };
 		636EFCAB21E62DD300DE43BC /* ViewController+ExternalDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636EFC9D21E62DD300DE43BC /* ViewController+ExternalDisplay.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5FACAEB02F89412100D4FD19 /* best.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = best.mlpackage; path = Models/Classify/best.mlpackage; sourceTree = "<group>"; };
 		6323C44D22186177008AE681 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6323C44F22186177008AE681 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		6323C45122186177008AE681 /* ultralytics_yolo_logotype.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ultralytics_yolo_logotype.png; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		7BCB410E21C3096100BFC4D0 = {
 			isa = PBXGroup;
 			children = (
+				5FACAEB02F89412100D4FD19 /* best.mlpackage */,
 				734B44432D42F7CF00D2CA6A /* Models */,
 				636EFC9B21E62DD300DE43BC /* YOLOiOSApp */,
 				7BCB411821C3096100BFC4D0 /* Products */,
@@ -177,6 +180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FACAEB12F89412100D4FD19 /* best.mlpackage in Resources */,
 				734B44482D42F7CF00D2CA6A /* Models in Resources */,
 				636EFCB921E62E3900DE43BC /* Assets.xcassets in Resources */,
 				63CF37202514455300E2DEA1 /* Main.storyboard in Resources */,
