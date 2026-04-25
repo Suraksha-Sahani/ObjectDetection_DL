@@ -4,9 +4,9 @@ import Foundation
 
 /// Empty remote models - using local custom model only
 public let remoteModelsInfo: [String: [(modelName: String, downloadURL: URL)]] = [
-    "Detect": [],
-    "Segment": [],
-    "Classify": [],
-    "Pose": [],
-    "OBB": [],
+  "Detect": [],
+  "Segment": [],
+  "Classify": [],
+  "Pose": [],
+  "OBB": [],
 ]
